@@ -90,3 +90,7 @@ st11 = Student('Male', 33, 'Mustafa', 'Velaskes', 'AN154')
 
 gr.add_student(st11) # можна перевірити так
 
+# try:
+#    gr.add_student(st11)
+# except UserException as err:  # або так
+#    print(err)
