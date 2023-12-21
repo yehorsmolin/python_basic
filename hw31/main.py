@@ -11,9 +11,5 @@ print(gr)
 assert gr.find_student('Jobs') == st1  # 'Steve Jobs'
 assert gr.find_student('Jobs2') is None
 
-
-assert gr.find_student('Jobs') == st1
-
 gr.delete_student('Taylor')
 print(gr) # Only one student
-

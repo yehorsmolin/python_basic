@@ -5,7 +5,6 @@ class Group:
     def __init__(self, number):
         self.number = number
         self.group = set()
-        self.search = set()
 
     def add_student(self, student):
         if len(self.group) >= 10:
